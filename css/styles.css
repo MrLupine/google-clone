@@ -1,0 +1,293 @@
+.site {
+	margin: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.top {
+	height: 0;
+	width: auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 20px;
+	width: auto;
+	padding: 20px 25px 0;
+	min-width: 950px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+}
+
+.left{
+	color: rgba(0,0,0,0.75);
+}
+
+.right{
+	color: rgba(0,0,0,0.87);
+}
+
+.left .headerlink {
+	margin-right: 19px;
+}
+
+.right .headerlink {
+	margin-left: 15px;
+}
+
+.headerlink:link, .footerlink:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.headerlink:visited, .footerlink:visited  {
+	color: inherit;
+	text-decoration: none;
+}
+
+.headerlink:hover, .footerlink:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.headerlink:active, .footerlink:active {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.dropdown {
+	margin: 2px 0 0 22px;
+}
+
+.dropbtn {
+	width: 16px;
+	height: 16px;
+	background-image: url(/Users/jpickard/Desktop/web-projects/the-odin-project/test-site/images/list-icon.svg);
+	border: none;
+	opacity: .55;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	opacity: .85;
+	outline: none !important;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 63px;
+	right: 30px;
+	width: 320px;
+	height: 590px;
+	background-color: white;
+	box-shadow: 0 2px 3px #a6a6a6;
+}
+
+.dropdown-content-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.dd-c_container {
+	width: 320px;
+	height: 550px;
+}
+
+.dd-c_buttons {
+	display: flex;
+	flex-wrap: wrap;
+	height: 470px;
+	width: 250px;
+	padding: 35px;
+}
+
+.more {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 320px;
+	height: 40px;
+	background-color: #f2f2f2;
+}
+
+.show {
+	display:flex;
+}
+
+.signin {
+	margin: 1px 5px 0 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 69.34px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #4285f4;
+}
+
+.signin a {
+	padding-top: -2px;
+	color: white;
+	text-decoration: none; 
+	font-weight: 700;
+}
+
+.signin:hover {
+	box-shadow: 0 1px 1px #cccccc;
+}
+
+.viewport {
+	margin: 0 auto;
+	min-width: 980px;
+	flex: 1;
+}
+
+.center {
+	text-align: -moz-center;
+	text-align: -webkit-center;
+}
+
+.logo {
+}
+
+.logo img{
+	width: 272px;
+	height: 92px;
+	padding-top: 109px;
+}
+
+.boxabv {
+	height: 228px;
+	margin-top: 89px;
+}
+
+.searchbarcontainer {
+	width: 482px;
+	height: 44px;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+}
+
+.searchbarcontainer:hover {
+	box-shadow: 0px 1px 5px #d9d9d9;
+}
+
+.searchbarcontainer:focus-within {
+	box-shadow: 0px 1px 5px #d9d9d9;
+    outline: none;
+}
+
+input:focus::placeholder {
+       color:transparent;
+  }
+
+.searchbar {
+	display: flex;
+	padding: 4px 18px 0 14px;
+}
+
+.search {
+	height: 34px;
+	width: 418px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	outline: none;
+	margin: none;
+	border: none;
+}
+
+.magnifier {
+	margin: 0;
+	padding: 11px 15px 0 3px;
+}
+
+.mag {
+	height: 14px;
+	width: 14px;
+}
+
+.buttons {
+	margin-top: 39px;
+}
+
+.btn {
+	padding: 9px 17px;
+	margin: 0 4px;
+	background-color: #f2f2f2;
+	color: #5F6368;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	border: 1px solid transparent;	
+	border-radius: 4px;
+}
+
+.btn:hover {
+	color: #000000;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+.btn:active {
+	border: 1px solid #4d90fe;
+}
+
+.btn:focus {
+	border: 1px solid #4d90fe;
+	outline: 0 !important;
+}
+
+.footer {
+	min-width: 950px;
+	height: 83px;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.countrycnt {
+	padding: 11px 0 14px 29px;
+	border: 1px solid #e6e6e6;
+}
+
+.country {
+	font-size: 15px;
+	color: #808080;
+}
+
+.country p {
+	margin: 0;
+}
+
+.links {
+	padding: 6px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	height: 20px;
+	font-size: 13px;
+	color: #666666;
+}
+
+.leftft a {
+	margin-right: 23px;
+}
+
+.rightft a {
+	margin-left: 23px;
+}
